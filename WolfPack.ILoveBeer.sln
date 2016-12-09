@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfPack.ILoveBeer.Domain", "WolfPack.ILoveBeer.Domain\WolfPack.ILoveBeer.Domain.csproj", "{77F57E34-B983-40D7-AC3D-FB8E5DD97FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfPack.ILoveBeer.Domain.Services", "WolfPack.ILoveBeer.Domain.Services\WolfPack.ILoveBeer.Domain.Services.csproj", "{C2A02066-9D34-41A5-85F3-335BDCE7C019}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{70B75103-907F-4A53-8264-788353B3FFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfPack.ILoveBeer.Domain.Services.Contracts", "WolfPack.ILoveBeer.Domain.Services.Contracts\WolfPack.ILoveBeer.Domain.Services.Contracts.csproj", "{018F1C1B-7E43-467D-B0D7-B7BCEB56E464}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AE4AFC21-577F-4BC3-9C01-E2A00D262495}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5B187916-61D7-45D0-8B6D-2D92BAF16CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfPack.ILoveBeer.Application.Services.Contracts", "WolfPack.ILoveBeer.Application.Services.Contracts\WolfPack.ILoveBeer.Application.Services.Contracts.csproj", "{260D0198-901E-4874-89A2-6716E3D2AB58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfPack.ILoveBeer.Application.Services", "WolfPack.ILoveBeer.Application.Services\WolfPack.ILoveBeer.Application.Services.csproj", "{94EAF3A0-5BDE-4476-AF61-3150B0D89DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4449E394-1C4E-467D-B284-3D4769A2FB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfPack.ILoveBeer.Infrastructure.Persistence", "WolfPack.ILoveBeer.Infrastructure.Persistence\WolfPack.ILoveBeer.Infrastructure.Persistence.csproj", "{234F501A-3C7F-4BAB-99F4-347AB7F8617E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfPack.ILoveBeer.Infrastructure.Persistence.Contracts", "WolfPack.ILoveBeer.Infrastructure.Persistence.Contracts\WolfPack.ILoveBeer.Infrastructure.Persistence.Contracts.csproj", "{2CF14C5F-CD0D-41D2-904C-9F13729BE124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolfPack.ILoveBeer.UI", "WolfPack.ILoveBeer.UI\WolfPack.ILoveBeer.UI.csproj", "{A251E89A-857E-4987-9119-65550BF434D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F57E34-B983-40D7-AC3D-FB8E5DD97FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F57E34-B983-40D7-AC3D-FB8E5DD97FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F57E34-B983-40D7-AC3D-FB8E5DD97FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F57E34-B983-40D7-AC3D-FB8E5DD97FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A02066-9D34-41A5-85F3-335BDCE7C019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A02066-9D34-41A5-85F3-335BDCE7C019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A02066-9D34-41A5-85F3-335BDCE7C019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A02066-9D34-41A5-85F3-335BDCE7C019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018F1C1B-7E43-467D-B0D7-B7BCEB56E464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018F1C1B-7E43-467D-B0D7-B7BCEB56E464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018F1C1B-7E43-467D-B0D7-B7BCEB56E464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018F1C1B-7E43-467D-B0D7-B7BCEB56E464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260D0198-901E-4874-89A2-6716E3D2AB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260D0198-901E-4874-89A2-6716E3D2AB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260D0198-901E-4874-89A2-6716E3D2AB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260D0198-901E-4874-89A2-6716E3D2AB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EAF3A0-5BDE-4476-AF61-3150B0D89DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EAF3A0-5BDE-4476-AF61-3150B0D89DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EAF3A0-5BDE-4476-AF61-3150B0D89DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EAF3A0-5BDE-4476-AF61-3150B0D89DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234F501A-3C7F-4BAB-99F4-347AB7F8617E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234F501A-3C7F-4BAB-99F4-347AB7F8617E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234F501A-3C7F-4BAB-99F4-347AB7F8617E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234F501A-3C7F-4BAB-99F4-347AB7F8617E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF14C5F-CD0D-41D2-904C-9F13729BE124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF14C5F-CD0D-41D2-904C-9F13729BE124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF14C5F-CD0D-41D2-904C-9F13729BE124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF14C5F-CD0D-41D2-904C-9F13729BE124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A251E89A-857E-4987-9119-65550BF434D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A251E89A-857E-4987-9119-65550BF434D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A251E89A-857E-4987-9119-65550BF434D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A251E89A-857E-4987-9119-65550BF434D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77F57E34-B983-40D7-AC3D-FB8E5DD97FBB} = {70B75103-907F-4A53-8264-788353B3FFAB}
+		{C2A02066-9D34-41A5-85F3-335BDCE7C019} = {70B75103-907F-4A53-8264-788353B3FFAB}
+		{018F1C1B-7E43-467D-B0D7-B7BCEB56E464} = {70B75103-907F-4A53-8264-788353B3FFAB}
+		{260D0198-901E-4874-89A2-6716E3D2AB58} = {5B187916-61D7-45D0-8B6D-2D92BAF16CBE}
+		{94EAF3A0-5BDE-4476-AF61-3150B0D89DB8} = {5B187916-61D7-45D0-8B6D-2D92BAF16CBE}
+		{234F501A-3C7F-4BAB-99F4-347AB7F8617E} = {4449E394-1C4E-467D-B284-3D4769A2FB53}
+		{2CF14C5F-CD0D-41D2-904C-9F13729BE124} = {4449E394-1C4E-467D-B284-3D4769A2FB53}
+		{A251E89A-857E-4987-9119-65550BF434D8} = {AE4AFC21-577F-4BC3-9C01-E2A00D262495}
+	EndGlobalSection
+EndGlobal
