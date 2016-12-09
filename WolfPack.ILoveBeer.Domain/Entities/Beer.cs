@@ -5,10 +5,16 @@ namespace WolfPack.ILoveBeer.Domain.Entities
 {
     public class Beer : EntityBase
     {
-        public string SubBrand { get; private set; }
+        #region Public Properties
+
         public string Brand { get; private set; }
         public BeerStyle Style { get; private set; }
+        public string SubBrand { get; private set; }
         public BeerType Type { get; private set; }
+
+        #endregion Public Properties
+
+        #region Public Constructors
 
         public Beer(string brand, string subBrand, BeerStyle style, BeerType type)
         {
@@ -21,6 +27,10 @@ namespace WolfPack.ILoveBeer.Domain.Entities
             Init(brand, subBrand, style, type);
         }
 
+        #endregion Public Constructors
+
+        #region Private Methods
+
         private void Init(string brand, string subBrand, BeerStyle style, BeerType type)
         {
             Type = type;
@@ -28,5 +38,7 @@ namespace WolfPack.ILoveBeer.Domain.Entities
             Brand = brand;
             SubBrand = subBrand;
         }
+
+        #endregion Private Methods
     }
 }
