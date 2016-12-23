@@ -40,7 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IDbConnectionFactory.cs" />
+    <Compile Include="IPersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WolfPack.ILoveBeer.Domain\WolfPack.ILoveBeer.Domain.csproj">
+      <Project>{77F57E34-B983-40D7-AC3D-FB8E5DD97FBB}</Project>
+      <Name>WolfPack.ILoveBeer.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
