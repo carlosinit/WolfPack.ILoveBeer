@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,13 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\PersonPersistence.cs" />
+    <Compile Include="PersonDapperRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WolfPack.ILoveBeer.Domain\WolfPack.ILoveBeer.Domain.csproj">
+      <Project>{77F57E34-B983-40D7-AC3D-FB8E5DD97FBB}</Project>
+      <Name>WolfPack.ILoveBeer.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WolfPack.ILoveBeer.Infrastructure.Persistence.Contracts\WolfPack.ILoveBeer.Infrastructure.Persistence.Contracts.csproj">
       <Project>{2cf14c5f-cd0d-41d2-904c-9f13729be124}</Project>
       <Name>WolfPack.ILoveBeer.Infrastructure.Persistence.Contracts</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
